@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- SITE HEADER -->
+    <header class="header-mb-custom sticky-top bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg justify-content-between py-4 mb-1">
+                <a href="#" class="navbar-brand">
+                    <img src="images/Britlex-logo.svg" alt="The logo of the site" height="25">
+                </a>
+
+                <ul class="d-none d-md-flex navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+
+                <div id="burger" class="burger d-block d-md-none" style="cursor: pointer;"></div>
+                    <ul id="navbar-mobile" class="navbar-wrapper d-none navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacts</a>
+                        </li>
+                        <li>
+                            <button id="close-nav" class="btn btn-danger">Close</button>
+                        </li>
+                    </ul>
+
+                <button class="d-none d-md-block btn btn-outline-dark px-5 py-2" id="lets-talk-btn">Let's Talk</button>
+            </nav>
+        </div>
+        <div class="my-comment fw-bold fs-4">
+            I really appreciate that i chose to be a developper.
+    <br>
+            Even if the proccess is too difficult, but i think i can handle it! ; )
+            <button class="btn btn-danger align-self-start mt-5" id="close-btn">Close</button>
+        </div>
+    </header>
+
+    <!-- SITE MAIN -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-mb-custom">
+            <div class="container">
+                <div class="row flex-wrap-reverse align-items-center">
+                    <div class="col-10 offset-1 col-md-5 offset-md-0">
+                            <h1 class="display-3 fw-bolder mb-3">Learn Any Foreign Language</h1>
+                        <p class="mb-5 w-75 fs-5 text-secondary">With our teachers who write a program for
+                            each student, you will be able to make your
+                            first sketch after the first lesson.</p>
+                        <button class="btn btn-dark w-75 fs-3 py-3 mb-5 mb-md-0">Get started</button>
+                    </div>
+
+                    <div class="col-10 offset-1 col-md-6">
+                        <img src="images/learning-langs.png" alt="the girl learning different languages"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills-mb-custom">
+            <div class="container mb-5">
+                <h2 class="fs-1 fw-bold text-center mb-5">Skills</h2>
+                <div class="row gap-3">
+    
+                    <!-- SPEAKING -->
+    
+                    <div class="col-10 offset-1 col-md-4 offset-md-0 bg-light px-4 py-3 mb-3 rounded-3">
+                        <img src="images/two-guys-sharing-goals.png" alt="two guys sharing their goals"
+                            class="mb-4 img-fluid mx-auto">
+                        <h3 class="mb-3 fw-bold">Speaking</h3>
+                        <p class="mb-3 text-secondary">Improve your English skills and confidence.
+                            Live classes and interactive lessons online.
+                            20% extra free for a limited time only</p>
+                        <p class="mb-4 text-secondary"> Learn English online and improve your
+                            skills through our high-quality courses
+                            and resources – all designed for adult language learners.</p>
+                        <div><button class="btn btn-dark px-4 py-2">Learn more</button></div>
+                    </div>
+    
+                    <div class="col-md-7">
+                        <div class="row gap-3">
+                            <!-- WRITING -->
+                            <div class="col-10 offset-1 col-md offset-md-0 bg-light px-4 py-3 mb-3 rounded-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <div class="text-center"><img src="images/Typewriter.png" alt="typing hand" class="mb-1 img-fluid"></div>
+                                    <h3 class="mb-3 fw-bold">Writing</h3>
+                                    <p class="text-secondary">One of the most important
+                                        and extensive areas of
+                                        natural science, the science
+                                        that studies substances,
+                                        also their composition </p>
+                                </div>
+                                <div><button class="btn btn-dark px-4 py-2">Learn more</button></div>
+                            </div>
+    
+                            <!-- READING -->
+                            <div class="col-10 offset-1 col-md offset-md-0 bg-light px-4 pt-5 pb-3 mb-3 rounded-3 d-flex flex-column">
+                                <img src="images/reading-book.png" alt="two guys sharing their goals"
+                                    class="mb-5 img-fluid align-self-center">
+                                <h3 class="mb-3 fw-bold">Reading</h3>
+                                <p class="mb-3 text-secondary">perception and response actions
+                                    of the user resulting from the use
+                                    and/or upcoming use of the
+                                    product, system or service</p>
+                                <div class="mt-auto">
+                                    <button class="btn btn-dark px-4 py-2">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- LISTENING -->
+                        <div class="row">
+                            <div class="col-10 offset-1 col-md offset-md-0 bg-light px-4 py-3 mb-3 rounded-3 d-lg-flex flex-lg-row-reverse align-items-lg-center">
+                                <img src="images/listening-guys.png" alt="typing hand" class="img-fluid mt-3 mb-3 align-self-center">
+                                <div>
+                                    <h3 class="mb-3 fw-bold">Listening</h3>
+                                    <p class="text-secondary">Here you can find activities to practise
+                                        your listening skills. Listening will help you
+                                        to improve your understanding </p>
+                                    <button class="btn btn-dark px-4 py-2">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-mb-custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 offset-1 col-md-6 offset-md-0">
+                        <h2 class="text-center text-md-start mt-3 mb-3 fs-1 fw-bold">About Us</h2>
+                        <p class="text-center text-md-start text-secondary mb-3 mb-md-5 fs-4">The model offers a
+                            framework for discussing problems related to the user's experience, as well as possible ways
+                            and means of solving them. Application development begins at the top level (strategy), where
+                            the future software product is described quite abstractly from the point of view of the
+                            expectations of both users and the customer.</p>
+                        <div class="row">
+                            <div class="col-12 col-md text-center">
+                                <h3 class="fw-bold">800</h2>
+                                    <p class="text-secondary">Pupils</p>
+                            </div>
+                            <div class="col-12 col-md text-center">
+                                <h3 class="fw-bold">18</h3>
+                                <p class="text-secondary">Teachers</p>
+                            </div>
+                            <div class="col-12 col-md text-center">
+                                <h3 class="fw-bold">6</h3>
+                                <p class="text-secondary">Foreign languages</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 offset-1 col-md-5 offset-md-1 my-auto">
+                        <img src="images/business-competition.png" alt="the business competition" width="500"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING SECTION-->
+        <section class="pricing-mb-custom">
+            <div class="container">
+                <h2 class="text-center fs-1 fw-bold">Pricing</h2>
+                <div class="row gap-5">
+                    <div class="col-10 offset-1 col-md offset-md-0 text-center text-md-start d-flex flex-column">
+                        <img src="images/online-study.png" alt="online study" class="img-fluid mb-2 mb-md-4">
+                        <h4 class="fw-bold">Self-study online course</h4>
+                        <p class="text-secondary">Start learning English online in live classes with qualified EC
+                            teachers and
+                            students
+                            from all over the world.</p>
+
+                        <div class="mt-auto">
+                            <button id="pricing-btn1" class="btn btn-secondary pricing-btn-custom text-dark">£5.99 per month</button>
+                        </div>
+                    </div>
+
+                    <div class="col-10 offset-1 col-md offset-md-0 text-center text-md-start pt-5 d-flex flex-column">
+                        <img src="images/lesson-two-guys.png" alt="lesson" class="img-fluid mb-2 mb-md-5">
+                        <h4 class="fw-bold">Live online classes</h4>
+                        <p class="text-secondary">Interactive group classes with expert teachers. Free 7-day trial</p>
+
+                        <div class="mt-auto">
+                            <button id="pricing-btn2" class="btn btn-secondary  pricing-btn-custom  text-dark">£12.99 per month</button>
+                        </div>
+                    </div>
+
+                    <div class="col-10 offset-1 col-md offset-md-0 text-center text-md-start d-flex flex-column">
+                        <img src="images/webinar.png" alt="webinar" class="img-fluid mb-2 mb-md-1">
+                        <h4 class="fw-bold">Personal Tuition</h4>
+                        <p class="text-secondary">Online one-to-one English tutoring – enjoy
+                            our first session for only $1</p>
+
+                        <div class="mt-auto">
+                            <button id="pricing-btn3" class="btn btn-secondary pricing-btn-custom  text-dark">£20.99 per month</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT US SECTION -->
+        <section class="contact-mb-custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 offset-1 col-md-4 offset-md-0">
+                        <img src="images/running-guy.png" alt="running boy" class="img-fluid" width="477">
+                    </div>
+                    <div class="col-10 offset-1 col-md-6 offset-md-1 d-flex flex-column justify-content-center">
+                        <h2 class="text-center text-md-start fs-1 fw-bold mb-3 mb-md-5">Contact Us</h2>
+                        <p class="text-secondary mb-3 mb-md-5 text-center text-md-start">Discover your current English
+                            level by taking our free online English test. Sign up to our newsletter for learning tips
+                            and free resources</p>
+
+                        <form id="form1" class="d-md-flex gap-md-0 gap-xl-3">
+                            <input type="email" class="form-control py-3 mb-4 mb-md-0" placeholder="Enter Your E-mail">
+                            <button id="email-btn" type="submit" class="btn btn-dark py-3 px-5 d-none d-md-block">Subscribe</button>
+                            <button id="email-btn" type="submit" class="btn btn-dark py-3 w-100 d-md-none">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- SITE FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="border-top py-4 text-center d-md-flex">
+                <a href="#">
+                    <img src="images/Britlex-logo.svg" alt="The logo of the site" class="mb-4 mb-md-0">
+                </a>
+
+                <ul class="d-flex list-unstyled my-auto ms-auto gap-2">
+                    <li><a href="#" class="text-secondary text-decoration-none">Terms and conditions</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">&#149; Privacy Policy</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">&#149; Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>

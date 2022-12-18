@@ -1,0 +1,80 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.burger {
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background-color: #39515E;
+    border-radius: 2px;
+}
+
+.burger::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #39515E;
+    border-radius: 2px;
+    bottom: -8px;
+}
+.burger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #39515E;
+    border-radius: 2px;
+    top: -8px;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.my-comment {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 192, 203);
+    color: red;
+}
+
+.header-mb-custom {
+    margin-bottom: 50px;
+}
+
+.hero-mb-custom {
+    margin-bottom: 100!important;
+}
+
+.skills-mb-custom{
+    margin-bottom: 140px;
+}
+
+.about-mb-custom {
+    margin-bottom: 150px;
+}
+
+.pricing-mb-custom {
+    margin-bottom: 180px;
+}
+
+.pricing-btn-custom {
+    background-color:#EEEEEE;
+    border: transparent;
+}
+
+.contact-mb-custom {
+    margin-bottom: 100px;
+}
